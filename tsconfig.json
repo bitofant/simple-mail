@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "dist",
+		"lib": [
+			"es7"
+		],
+		"types": [
+			"node",
+			"smtp-server",
+			"nodemailer"
+		],
+		"typeRoots": [
+			"node_modules/@types",
+			"node_modules/technicalindicators/declarations"
+		],
+		"sourceMap": true
+	},
+	"compileOnSave": true,
+	"files": [
+		"src/app.ts"
+	],
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"src/fontend"
+	]
+}
